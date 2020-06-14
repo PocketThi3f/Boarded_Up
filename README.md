@@ -1,4 +1,4 @@
-# boarding_up
+# Boarding_Up
 A website dedicated to my board gaming addiction
 
 
