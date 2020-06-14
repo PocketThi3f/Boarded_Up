@@ -8,3 +8,7 @@ A website dedicated to my board gaming addiction
 * HTML
 * CSS
 
+
+## Host
+* Heroku
+
