@@ -1,2 +1,10 @@
 # boarding_up
-A website dedicated to my board game addiction
+A website dedicated to my board gaming addiction
+
+
+# Tools used
+Node.js
+Git
+HTML
+CSS
+
