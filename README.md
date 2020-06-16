@@ -7,6 +7,7 @@ A website dedicated to my board gaming addiction
 * Git
 * HTML
 * CSS
+* JS
 
 
 ## Host
