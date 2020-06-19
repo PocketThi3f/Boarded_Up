@@ -1,4 +1,10 @@
+body {
+    margin: 0 auto;
+}
+
+
 .heading {
+    background-color: ;
     margin-top: 1rem;
     font-weight: 700;
     text-align: center;
