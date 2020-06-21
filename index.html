@@ -2,28 +2,59 @@
 <html>
   <head>
 	  <title>Boarded Up</title>
+	  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 	  <!-- <link href="css/reset.css" rel="stylesheet"> -->
 	  <link href="css/index.css" rel="stylesheet">
   </head>
   <body>
+	<!-- Tabs Header -->
 	<header class="heading">
-		<p>Welcome to Boarded Up!</p>
+		<div id="London" class="tabcontent">
+			<h1>London</h1>
+			<p>London is the capital city of England.</p>
+		</div>
+		  
+		<div id="Paris" class="tabcontent">
+			<h1>Paris</h1>
+			<p>Paris is the capital of France.</p>
+		</div>
+		  
+		<div id="Tokyo" class="tabcontent">
+			<h1>Tokyo</h1>
+			<p>Tokyo is the capital of Japan.</p>
+		</div>
+		  
+		<div id="Oslo" class="tabcontent">
+			<h1>Oslo</h1>
+			<p>Oslo is the capital of Norway.</p>
+		</div>
+		<!-- Buttons for Tabs -->
+		<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+		<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+		<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+		<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
 	</header>
 
+	<!-- Search Field -->
 	<div class="search">
 		<p>Start by searching for your favorite games:</p>
 		<input type="text" required/>
 		<button type="submit">Search</button>
 	</div>
 
+	<!-- Search Results -->
 	<div class="search-results">
 		<p>Title of Board Game</p>
 		<img src="./images/azul-bg.jpg" alt="A cool board game" />
 		<a href=""><p>Link to Board Game Description and Review</p></a>
 	</div>
 
+	<!-- Footer -->
 	<footer class="social-media">
 		<p>Contact me for reviews about a game I currently own!</p>
 	</footer>
+
+	<!-- JS Files -->
+	<script 
   </body>
 </html>
