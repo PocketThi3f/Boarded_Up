@@ -4,11 +4,15 @@ html, body {
     height: 100%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Header */
 .heading {
-    background-color: purple;
+    font-family: "Segoe UI",Arial,sans-serif;
     font-weight: 700;
-    height: auto;
     text-align: center;
 }
 
@@ -26,6 +30,8 @@ html, body {
 
 /* Footer */
 .social-media {
+    background-color: salmon;
+    border: seagreen solid;
     margin-top: 1rem;
     text-align: center;
 }
