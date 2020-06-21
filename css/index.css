@@ -22,9 +22,15 @@ body {
     text-align: center;
 }
 
-/* .bg-card {
+/* .search-field { 
 
 } */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 /* Footer */
 .social-media {
