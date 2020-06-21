@@ -6,7 +6,7 @@ A website dedicated to my board gaming addiction
 * Node.js
 * Git
 * HTML
-* CSS
+* CSS (Flexbox methodology)
 * JS
 
 
