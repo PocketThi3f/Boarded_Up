@@ -2,6 +2,7 @@
 html, body {
     margin: 0;
     height: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
 }
 
 body {
@@ -11,22 +12,19 @@ body {
 
 /* Header */
 .heading {
-    font-family: "Segoe UI",Arial,sans-serif;
     font-weight: 700;
     text-align: center;
 }
 
-/* Search Field */
-.search {
+/* Main Content */
+.content {
     margin-top: 1rem;
     text-align: center;
 }
 
-/* Search Results */
-.search-results {
-    margin-top: 1rem;
-    text-align: center;
-}
+/* .bg-card {
+
+} */
 
 /* Footer */
 .social-media {
@@ -34,6 +32,7 @@ body {
     border: seagreen solid;
     margin-top: 1rem;
     text-align: center;
+    flex-grow: 1;
 }
 
 
