@@ -20,12 +20,14 @@ body {
 .content {
     margin-top: 1rem;
     text-align: center;
+    flex: 1 0 auto;
 }
 
 /* .search-field { 
 
 } */
 
+/* Items Container */
 .container {
     display: flex;
     flex-direction: row;
@@ -36,9 +38,8 @@ body {
 .social-media {
     background-color: salmon;
     border: seagreen solid;
-    margin-top: 1rem;
     text-align: center;
-    flex-grow: 1;
+    padding: 10px;
 }
 
 
