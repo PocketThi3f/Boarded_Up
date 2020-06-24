@@ -7,13 +7,14 @@ html, body {
 
 body {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 /* Header */
 .heading {
     font-weight: 700;
     text-align: center;
+    flex: 1 1 100%;
 }
 
 /* Main Content */
@@ -40,6 +41,10 @@ body {
     border: seagreen solid;
     text-align: center;
     padding: 10px;
+}
+
+.social-nav {
+    flex-direction: row;
 }
 
 
