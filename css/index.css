@@ -38,14 +38,18 @@ body {
 /* Footer */
 .social-media {
     background-color: salmon;
-    border: seagreen solid;
     flex: 1 0 auto;
-    text-align: center;
+    justify-content: flex-end;
     padding: 10px;
 }
 
-.social-nav {
-    flex-direction: row;
+/* Footer Nav */
+.social-nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style-type: none;
 }
 
 
