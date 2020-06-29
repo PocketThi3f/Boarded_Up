@@ -10,5 +10,7 @@ function createCard() {
     document.body.getElementsByClassName("container").appendChild(cardBtn);
 	        // <p>Title of Board Game</p>
 	        // <img src="./images/azul-bg.jpg" alt="A cool board game" />
-	        // <a href=""><p>Link to Board Game Description and Review</p></a>
+            // <a href=""><p>Link to Board Game Description and Review</p></a>
+            
+    // createTextNode seems to mostly be required? innerHTML
 }

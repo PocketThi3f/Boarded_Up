@@ -82,7 +82,7 @@ body {
   }
   
   /* Style each tab content individually */
-  #London {background-color:red;}
-  #Paris {background-color:green;}
-  #Tokyo {background-color:blue;}
-  #Oslo {background-color:orange;}
+  #home {background-color:red;}
+  #myList {background-color:green;}
+  #contact {background-color:blue;}
+  #aboutMe {background-color:orange;}
