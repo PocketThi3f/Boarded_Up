@@ -1,10 +1,10 @@
 // Click to add a mini review card to the DOM
 function createCard() {
     // Local variable
-    var i, container;
+    var card, container;
 
     container = document.getElementsByClassName("container");
-    for (i = 0; i < container.length; i++) {
+    for (card = 0; card < container.length; card++) {
         <div class="bg-card">
 	        <p>Title of Board Game</p>
 	        <img src="./images/azul-bg.jpg" alt="A cool board game" />
