@@ -1,5 +1,5 @@
 // Click to add a mini review card to the DOM
-function createCard() {
+function createCard(val) {
     // Local variable
     var div = document.createElement('div');
 
@@ -7,7 +7,7 @@ function createCard() {
     div.className = "bg-card";
 
     // Insert html with innerHTML function
-    div.innerHTML = "<p>Title of Board Game</p>";
+    div.nodeValue();
 
     // Append to div with classname of container
     document.body.append(div);
