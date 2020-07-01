@@ -6,6 +6,9 @@ function createCard(val) {
     // Create div with classname bg-card
     div.className = "bg-card";
 
+    // Submit user given value on button click to show up in div
+    div.addEventListener
+
     // Append to div with classname of container
     document.body.append(div);
 
