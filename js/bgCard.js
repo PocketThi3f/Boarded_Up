@@ -6,9 +6,6 @@ function createCard(val) {
     // Create div with classname bg-card
     div.className = "bg-card";
 
-    // Insert html with innerHTML function
-    div.nodeValue();
-
     // Append to div with classname of container
     document.body.append(div);
 
