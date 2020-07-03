@@ -12,7 +12,7 @@ function inputValue() {
     document.body.addEventListener('click', function() {
         var div = document.createElement('div');
 
-        div.innerHTML = '<p></p>';
+        div.append(value);
 
         document.body.append(div);
     });
