@@ -14,6 +14,8 @@ function inputValue() {
 
         div.append(value);
 
-        document.body.append(div);
+        console.log(document.body.getElementsByClassName('content'));
+
+        // document.getElementsByClassName('content');
     });
 }
