@@ -24,9 +24,12 @@ body {
     flex: 1 0 100%;
 }
 
-/* .search-field { 
-
-} */
+/* Search */
+.search { 
+    margin-top: 1rem;
+    text-align: center;
+    flex: 1 0 100%;
+}
 
 /* Items Container */
 .container {

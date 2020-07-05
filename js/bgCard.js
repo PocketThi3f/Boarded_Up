@@ -12,10 +12,8 @@ function inputValue() {
     document.body.addEventListener('click', function() {
         var div = document.createElement('div');
 
-        div.append(value);
+        div.
 
-        console.log(document.body.getElementsByClassName('content'));
-
-        // document.getElementsByClassName('content');
+        // console.log(document.body.getElementsByClassName('content'));
     });
 }
