@@ -12,8 +12,7 @@ function inputValue() {
     document.body.addEventListener('click', function() {
         var div = document.createElement('div');
 
-        div.
-
-        // console.log(document.body.getElementsByClassName('content'));
+        // div.
     });
+        // console.log(document.body.getElementsByClassName('content'));
 }
