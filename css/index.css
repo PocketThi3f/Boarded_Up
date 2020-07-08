@@ -31,27 +31,18 @@ body {
     flex: 1 0 100%;
 }
 
-/* Items Container */
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 /* Footer */
 .social-media {
     background-color: salmon;
     flex: 1 0 auto;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
 }
 
-/* Footer Nav */
+/* Footer Items */
 .social-nav-items {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: nowrap;
+    display: column;
     list-style-type: none;
 }
 
@@ -85,7 +76,7 @@ body {
   }
   
   /* Style each tab content individually */
-  #home {background-color:red;}
-  #myList {background-color:green;}
-  #contact {background-color:blue;}
-  #aboutMe {background-color:orange;}
+  #home { background-color:red; }
+  #myList { background-color:green; }
+  #contact { background-color:blue; }
+  #aboutMe { background-color:orange; }
