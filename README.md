@@ -1,5 +1,5 @@
 # Boarded_Up
-A website dedicated to my board gaming addiction
+A website dedicated to my board game addiction
 
 
 ## Tools used
@@ -8,9 +8,9 @@ A website dedicated to my board gaming addiction
 * HTML
 * CSS (Flexbox methodology)
 * JS
-* Potential Changes to either Tailwind.css or Bulma
+* Potential Changes to either Tailwind or Bulma 
 
 
-## Host
+## Website Hosting
 * Heroku
 
