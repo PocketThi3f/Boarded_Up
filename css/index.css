@@ -7,8 +7,7 @@ html, body {
 
 body {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 /* Header */
@@ -33,6 +32,7 @@ body {
 
 /* Footer */
 .social-media {
+    display: column;
     background-color: salmon;
     flex: 1 0 auto;
     justify-content: center;
