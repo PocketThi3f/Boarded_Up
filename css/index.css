@@ -7,35 +7,33 @@ html, body {
 
 body {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
 /* Header */
 .heading {
+    flex: 1 0 auto;
     font-weight: 700;
     text-align: center;
-    flex: 1 0 auto;
 }
 
 /* Main Content */
 .content {
+    flex: 1 0 auto;
     margin-top: 1rem;
     text-align: center;
-    flex: 1 0 auto;
 }
 
 /* Search */
 .search {
-    flex: 1 0 auto;
     margin-top: 1rem;
     text-align: center;
 }
 
 /* Footer */
 .social-media {
-    display: column;
     background-color: salmon;
-    flex: 1 0 auto;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -43,13 +41,14 @@ body {
 
 /* Footer Items */
 .social-nav-items {
-    display: column;
     list-style-type: none;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
 
 /* CSS for Button Tabs */
-
 /* Style the tab buttons */
 .tablink {
     background-color: #555;
