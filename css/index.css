@@ -25,7 +25,8 @@ body {
 }
 
 /* Search */
-.search { 
+.search {
+    flex: 1 0 auto;
     margin-top: 1rem;
     text-align: center;
 }
