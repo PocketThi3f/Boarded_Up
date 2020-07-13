@@ -33,15 +33,15 @@ body {
 
 /* Footer */
 .social-media {
-    background-color: salmon;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+    background-color: plum;
+    text-align: center;
 }
 
 /* Footer Items */
-.social-nav-items {
-    list-style-type: none;
+.social-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -80,3 +80,9 @@ body {
   #myList { background-color:green; }
   #contact { background-color:blue; }
   #aboutMe { background-color:orange; }
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* About Page */
