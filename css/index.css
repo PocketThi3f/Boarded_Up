@@ -20,8 +20,11 @@ body {
 
 /* Main Content */
 .content {
-    flex: 1 0 auto;
+    flex: 1 0 350px;
     margin-top: 1rem;
+}
+
+.content-title {
     text-align: center;
 }
 
@@ -79,10 +82,25 @@ body {
   #home { background-color: #DD602E; }
   #myList { background-color: #269916; }
   #contact { background-color:#1079C7; }
-  #aboutMe { background-color:#E39711; }
+  #aboutMe { background-color: #D5AA6F; }
 
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 
 /* About Page */
+
+/* Contact Page */
+.contactForm {
+    border: 1px solid black;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* List Page */
+.dummyDiv {
+    display: inline-block;
+    border-radius: 50%;
+    border-color: cadetblue;
+    border: dotted;
+}
