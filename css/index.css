@@ -85,7 +85,15 @@ body {
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 
-/* About Page */
+
+/* List Page */
+.dummyDiv {
+    display: inline-block;
+    border-radius: 50%;
+    border-color: cadetblue;
+    border: dotted;
+}
+
 
 /* Contact Page */
 .contactForm {
@@ -98,10 +106,14 @@ body {
     padding: 25px;;
 }
 
-/* List Page */
-.dummyDiv {
-    display: inline-block;
-    border-radius: 50%;
-    border-color: cadetblue;
-    border: dotted;
+
+/* About Page */
+.hobbies{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.hobby {
+    border: 2px solid greenyellow;
 }
