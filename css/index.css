@@ -22,9 +22,6 @@ body {
 .content {
     flex: 1 0 350px;
     margin-top: 1rem;
-}
-
-.content-title {
     text-align: center;
 }
 
@@ -93,8 +90,12 @@ body {
 /* Contact Page */
 .contactForm {
     border: 1px solid black;
-    max-width: 500px;
+    border-radius: 35px;
+    width: 750px;
+    height: 300px;
     margin: auto;
+    text-align: left;
+    padding: 25px;;
 }
 
 /* List Page */
