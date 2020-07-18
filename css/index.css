@@ -97,12 +97,10 @@ body {
 
 /* Contact Page */
 .contactForm {
-    background-color: #C490D1;
-    border: 2px solid black;
-    border-radius: 35px;
+    /* background-color: #C490D1; */
     width: 750px;
     height: 300px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: left;
     padding: 25px;;
 }
@@ -113,7 +111,7 @@ body {
 }
 
 .formField {
-    width: 360px;
+    width: 735px;
 }
 
 /* About Page */
