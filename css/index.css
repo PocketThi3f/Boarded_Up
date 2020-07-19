@@ -20,13 +20,13 @@ body {
 /* Main Content */
 .content {
     flex: 1 0 auto;
-    /* margin-top: 10px; */
+    margin-top: 50px;
     text-align: center;
 }
 
 /* Search */
 .search {
-    /* margin-top: 10px; */
+    margin-top: 50px;
     text-align: center;
 }
 
