@@ -13,7 +13,6 @@ body {
 
 /* Header */
 .heading {
-    flex: 1 0 auto;
     font-weight: 700;
     text-align: center;
 }
