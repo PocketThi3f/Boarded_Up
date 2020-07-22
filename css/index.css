@@ -117,6 +117,7 @@ body {
 /* About Page */
 .hobbies{
     display: flex;
+    flex: 1 0 auto;
     justify-content: space-evenly;
     list-style-type: none;
     margin-bottom: 50px;
@@ -128,4 +129,8 @@ body {
     height: 100px;
     border-radius: 25px;
     background-color: burlywood;
+}
+
+.linkSpace {
+    padding: 5px;
 }
