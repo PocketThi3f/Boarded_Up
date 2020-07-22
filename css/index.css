@@ -115,22 +115,33 @@ body {
 }
 
 /* About Page */
+.introDiv {
+    margin-bottom: 80px;
+}
+
+.hobbyDiv {
+    margin: 50px 0;
+}
+
+.musicDiv {
+    margin-top: 80px;
+}
+
+.musicDiv a {
+    line-height: 30px;
+}
+
 .hobbies{
     display: flex;
     flex: 1 0 auto;
     justify-content: space-evenly;
     list-style-type: none;
-    margin-bottom: 50px;
 }
 
 .hobby {
     padding: 20px;
     width: 250px;
-    height: 100px;
+    height: 20px;
     border-radius: 25px;
     background-color: burlywood;
-}
-
-.linkSpace {
-    padding: 5px;
 }
