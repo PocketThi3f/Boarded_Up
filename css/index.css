@@ -119,8 +119,12 @@ body {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin-bottom: 50px;
 }
 
 .hobby {
+    padding: 20px;
+    width: 250px;
+    height: 100px;
     border: 2px solid greenyellow;
 }
