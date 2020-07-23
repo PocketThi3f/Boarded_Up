@@ -25,6 +25,10 @@ body {
     text-align: center;
 }
 
+.content a {
+    text-decoration: none;
+}
+
 /* Search */
 .search {
     margin-top: 50px;
