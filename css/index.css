@@ -138,7 +138,7 @@ body {
 .hobbies{
     display: flex;
     flex: 1 0 auto;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style-type: none;
 }
 
@@ -146,6 +146,7 @@ body {
     padding: 20px;
     width: 250px;
     height: 20px;
+    margin: 0 10px;
     border-radius: 25px;
-    background-color: burlywood;
+    background-color: #D18675;
 }
