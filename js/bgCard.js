@@ -7,12 +7,15 @@ function inputValue() {
     // Select id of input for and listen for user input
     var value = document.getElementById('gameInput').value;
 
-    console.log(value);
+    // console.log(value);
 
-    document.body.addEventListener('click', function() {
-        var div = document.createElement('div');
+    // Get id of button that event will listen for
+    var newItem = document.getElementById('listItem');
 
-        // div.
-    });
-        // console.log(document.body.getElementsByClassName('content'));
+    // Creating a function that allows a new list item to appear from userInput
+    function createGameCard() {
+        
+    }
+
+    document.createElement('div').addEventListener('click',)
 }
