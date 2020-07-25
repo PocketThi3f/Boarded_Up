@@ -8,9 +8,9 @@ A website dedicated to my board game addiction
 * HTML
 * CSS (Flexbox methodology)
 * JS
-* Potential Changes to either Tailwind or Bulma 
+* Potential Changes to either Tailwind or Bulma CSS
 
 
 ## Website Hosting
-* Heroku
+* GitHub Pages
 
