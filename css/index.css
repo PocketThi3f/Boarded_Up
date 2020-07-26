@@ -37,7 +37,7 @@ body {
 
 /* Footer */
 .social-media {
-    background-color: plum;
+    /* background-color: plum; */
     text-align: center;
 }
 
@@ -92,19 +92,16 @@ body {
 
 /* List Page */
 .dummyDiv {
-    display: inline-block;
-    border-radius: 25%;
-    border-color: cadetblue;
-    border: dotted;
+    display: flex;
+    width: fit-content;
+    height: auto;
 }
 
 
 /* Contact Page */
 .contactForm {
-    /* background-color: #C490D1; */
     width: 750px;
     height: 300px;
-    /* margin: 0 auto; */
     text-align: left;
     padding: 25px;;
 }
