@@ -133,15 +133,15 @@ body {
 
 /* About Page */
 .introDiv {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .hobbyDiv {
-    margin: 50px 0;
+    margin: 25px 0;
 }
 
 .musicDiv {
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .musicDiv a {
@@ -153,6 +153,8 @@ body {
     flex: 1 0 auto;
     justify-content: center;
     list-style-type: none;
+    background: cornflowerblue;
+    height: 160px;
 }
 
 .hobby {
@@ -163,6 +165,7 @@ body {
     background-color: #D18675;
     color: black;
     font-weight: 700;
+    margin-top: 65px;
 }
 
 .hobby:hover {
