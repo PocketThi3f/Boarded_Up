@@ -36,12 +36,11 @@ body {
 }
 
 #game-table {
-    background: ;
-    color: white;
+    background: #134F3A;
+    color: blanchedalmond;
     padding: 2em;
-    max-width: 250px;
     border: unset;
-    border-radius: 25px;
+    height: auto;
     margin-top: 1em;
 }
 
