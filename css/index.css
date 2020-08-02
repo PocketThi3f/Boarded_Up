@@ -161,4 +161,10 @@ body {
     margin: 0 10px;
     border-radius: 25px;
     background-color: #D18675;
+    color: black;
+    font-weight: 700;
+}
+
+.hobby:hover {
+    border-bottom: 1px solid black;
 }
