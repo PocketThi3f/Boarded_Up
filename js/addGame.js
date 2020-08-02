@@ -18,9 +18,12 @@ function addGameToTable (event) {
     // Manipulate element's innerText property
     newDiv.innerText = inputBox[0].value;
 
+    // Add the item into given element with id of game-table
+    gameTable.appendChild(newDiv);
+
     // Keep page from reloading on click
     event.preventDefault();
 }
 
 // Add an event listener function for whenever the user clicks the button
-gameItem.addEventListener('click', addGameToTable);
+gameForm.addEventListener('click', addGameToTable);
