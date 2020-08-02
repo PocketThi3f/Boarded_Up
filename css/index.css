@@ -35,6 +35,16 @@ body {
     text-align: center;
 }
 
+#game-table {
+    background: ;
+    color: white;
+    padding: 2em;
+    max-width: 250px;
+    border: unset;
+    border-radius: 25px;
+    margin-top: 1em;
+}
+
 /* Footer */
 .social-media {
     background-color: #DFDFDE;
