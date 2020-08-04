@@ -138,6 +138,8 @@ body {
 
 .hobbyDiv {
     margin: 25px 0;
+    height: 160px;
+    background: cornflowerblue;
 }
 
 .musicDiv {
@@ -148,24 +150,21 @@ body {
     line-height: 30px;
 }
 
-.hobbies{
+.hobbies {
     display: flex;
-    flex: 1 0 auto;
     justify-content: center;
     list-style-type: none;
-    background: cornflowerblue;
-    height: 160px;
 }
 
 .hobby {
     padding: 10px;
     width: 250px;
-    margin: 0 10px;
+    margin: 65px 20px;
     border-radius: 25px;
     background-color: #ffffff;
-    color: black;
     font-weight: 700;
-    margin-top: 65px;
+    color: black;
+    cursor: pointer;
 }
 
 .hobby:hover {
