@@ -13,6 +13,7 @@ function addGameToTable (event) {
     // Variable that creates a new div container and give it a class name of game-item
     const newDiv = document.createElement("div");
 
+    // Add class name to newly created divs
     newDiv.className = "game-item";
 
     // Manipulate element's innerText property
@@ -23,6 +24,11 @@ function addGameToTable (event) {
 
     // Keep page from reloading on click
     event.preventDefault();
+}
+
+// Create a for loop to put data into an empty array and allow divs to populate normally
+for(var i = 0; i < gameTable.length; i++) {
+    console.log(gameTable[i]);
 }
 
 // Add an event listener function for whenever the user clicks the button
