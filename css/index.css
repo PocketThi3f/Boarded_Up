@@ -135,17 +135,17 @@ ul {
 .contactForm {
     width: 750px;
     height: 300px;
-    text-align: left;
     padding: 25px;;
 }
 
 .textBox {
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 750px;
 }
 
 .inputField {
-    width: 735px;
+    width: 750px;
 }
 
 /* About Page */
