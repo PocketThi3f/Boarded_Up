@@ -41,11 +41,13 @@ ul {
 
 #game-table {
     background: #134F3A;
+    border-radius: 15px;
     color: blanchedalmond;
     padding: 2em;
     border: unset;
-    height: auto;
-    margin-top: 1em;
+    height: 50%;
+    width: 75%;
+    margin: 20px auto;
 }
 
 /* Footer */
