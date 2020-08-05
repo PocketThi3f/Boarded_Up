@@ -11,6 +11,10 @@ body {
     flex-wrap: wrap;
 }
 
+ul {
+    padding: 0px;
+}
+
 /* Header */
 .heading {
     font-weight: 700;
@@ -48,14 +52,27 @@ body {
 .social-media {
     background-color: #DFDFDE;
     text-align: center;
-}
-
-/* Footer Items */
-.social-item {
+    height: 125px;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    justify-content: center;
 }
+
+.social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-item li {
+   list-style-type: none;
+   margin: 0 10px;
+}
+
+.social-item a {
+    text-decoration: none;
+}
+
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
