@@ -40,6 +40,12 @@ function addGameToTable (event) {
 
     // Function for game display button
     gameDisplayButton.addEventListener('click', function() {
+        const allGames = document.querySelectorAll('.game-item');
+        // For loop for individual game entries to show up
+        for(let i = 0; i < allGames.length; i++) {
+            // console.log(allGames[i].length);
+            allGames[i].style.display = "none";
+        }
         newDiv.style.display = "block";
     });
 
