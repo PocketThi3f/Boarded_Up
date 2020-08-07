@@ -8,6 +8,9 @@ const gameNav = document.querySelector(".game-nav");
 console.log(gameForm);
 // console.log(inputBox[0].value);
 
+// Variable for count
+let count = 1;
+
 // Function for web page reloading
 function addGameToTable (event) {
     // Keep page from reloading on click
@@ -30,16 +33,20 @@ function addGameToTable (event) {
     // Make a new variable to put the element as a button to display game information
     const gameDisplayButton = document.createElement("button");
     gameDisplayButton.className = "game-display-button";
-    gameDisplayButton.innerText = "I am a game";
+    gameDisplayButton.innerText = "Game " + count;
 
     // Append display game button into new game-nav div
     gameNav.appendChild(gameDisplayButton);
+
+    // Function for game display button
+    gameDisplayButton.addEventListener('click', function() {
+        newDiv.style.display = "block";
+    });
+
+    // Increase value of the entry by 1
+    count++;
 }
 
-// Create a for loop to put data into an empty array and allow divs to populate normally
-// for(var i = 0; i < gameNav.length; i++) {
-//     console.log(gameNav[i]);
-// }
 
 // Add an event listener function for whenever the user submits the button
 gameForm.addEventListener('submit', addGameToTable);
