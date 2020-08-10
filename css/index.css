@@ -206,7 +206,7 @@ ul {
     cursor: pointer;
 }
 
-.hobby:hover, .hobby:focus {
+.hobby:hover {
     box-shadow: 3.5px 4.5px black ;
 }
 
@@ -214,7 +214,7 @@ ul {
     color: black;
 }
 
-.lineColor:hover, .lineColor:focus {
+.lineColor:hover {
     border-bottom: 2px solid black;
 }
 
