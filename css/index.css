@@ -232,10 +232,19 @@ ul {
 
 }
 /* List Page */
+@media only screen and (min-width: 600px) {
+
+}
 
 /* Contact Page */
+@media only screen and (min-width: 600px) {
+
+}
 
 /* About Page */
+@media only screen and (min-width: 600px) {
+
+}
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 /* --------------------------------------------------------------------DESKTOP---------------------------------------------------------------- */
@@ -245,7 +254,16 @@ ul {
     
 }
 /* List Page */
+@media only screen and (min-width: 600px) {
+
+}
 
 /* Contact Page */
+@media only screen and (min-width: 600px) {
+
+}
 
 /* About Page */
+@media only screen and (min-width: 600px) {
+
+}
